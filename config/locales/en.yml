@@ -1,0 +1,7 @@
+en:
+  active_interaction:
+    errors:
+      messages:
+        is_too_short: "can be more then 0"
+        is_too_long: "can be less then 90"
+        not_unique: "already exists"
