@@ -42,7 +42,7 @@ module Users
     def user_params
       user_full_name = [params[:surname], params[:name], params[:patronymic]].join(' ')
     
-      params.except(:skills).except(:interests).merge(
+      params.merge(
         user_full_name: user_full_name,
         skills: skills_params,
         interests: interests_params
